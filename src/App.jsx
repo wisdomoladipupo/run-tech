@@ -35,8 +35,8 @@ function App() {
   return (
     <div>
       <nav className="p-5 sm:p-5 flex z-10 justify-between align-middle bg-blue-300  sticky top-0 ">
-        <h1 className="text-2xl font-bold">RunTech</h1>
-        <div className="items-right px-4 cursor-pointer md:hidden" id="burger">
+        <h1 className=" text-2xl font-bold">RunTech</h1>
+        <div className="items-right px-4 cursor-pointer lg:hidden" id="burger">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -53,15 +53,15 @@ function App() {
           </svg>
         </div>
         <div
-          className={`text-sm mt-6 ${isMenuVisible ? "" : "hidden"} md:block`}
+          className={`text-sm mt-6 ${isMenuVisible ? "" : "hidden"} lg:block`}
           id="menu"
         >
-          <ul className="sm:absolute sm:right-4 sm:bottom-5  grid grid-flow-row justify-center md:flex md:gap-4 md:justify-center md:mr-2">
-            <li className=" py-2 md:py-0">
-              <NavLink to="/comments">comments</NavLink>
-            </li>
-            <li className=" py-2 md:py-0 ">
+          <ul className=" grid grid-flow-row mt-5 sm:mt-0 lg:flex sm:gap-4 lg:justify-center lg:my-auto lg:mr-2">
+            <li className="text-right">
               <NavLink to="/">home</NavLink>
+            </li>
+            <li>
+              <NavLink to="/comments">comments</NavLink>
             </li>
           </ul>
         </div>
