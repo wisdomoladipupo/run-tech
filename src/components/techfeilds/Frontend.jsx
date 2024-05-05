@@ -2,11 +2,11 @@ import React from "react";
 import frontdisplay from "../images/frontend-image3.png";
 const Frontend = () => {
   return (
-    <div className="bg-slate-700 pt-5">
+    <div className="bg-slate-700 pt-5 text-white">
       <h2 className="p-2 m-2 font-bold">
         tech schools that offer tech courses for learning
       </h2>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap text-black">
         {" "}
         <a
           className="hover:bg-gray-100 hover:border-black p-4 m-2 border-2 bg-gray-200 rounded-lg"
@@ -57,7 +57,7 @@ const Frontend = () => {
       <div className="flex justify-center">
         <img className="w-full" src={frontdisplay} alt="tech image" />
       </div>
-      <div className="m-2 p-2 md:grid md:grid-cols-3 gap-2">
+      <div className=" m-2 p-2 md:grid md:grid-cols-3 gap-2">
         <div className="shadow-lg rounded-md">
           <p className="m-2">
             <strong>1. HTML -</strong> <br />

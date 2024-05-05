@@ -2,12 +2,12 @@ import React from "react";
 import clouddisplay from "../images/cloud-computing.jpg";
 const CloudEngineering = () => {
   return (
-    <div className="bg-slate-700 pt-5">
+    <div className="bg-slate-700 pt-5 text-white">
       <div>
         <h2 className="p-2 m-2 font-bold">
           tech schools that offer tech courses for learning
         </h2>
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap text-black">
           {" "}
           <a
             className="hover:bg-gray-100 hover:border-black p-4 m-2 border-2 bg-gray-200 rounded-lg"
@@ -60,7 +60,7 @@ const CloudEngineering = () => {
       <div>
         <img src={clouddisplay} alt="tech image" />
       </div>
-      <div className="m-2 p-2 md:grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className=" m-2 p-2 md:grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="shadow-lg rounded-lg col-span-2">
           <strong className="m-2">1. Cloud Computing Fundamentals:</strong>
           <p className="m-2">

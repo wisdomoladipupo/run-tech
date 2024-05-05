@@ -31,7 +31,7 @@ const HomePage = () => {
           </h2>
         </div>
         <div className=" p-4 m-10 shadow-2xl flex flex-col justify-center">
-          <h2 className="font-bold text-2xl">
+          <h2 className=" lg:text-2xl">
             confused about where to start from in your tech journey?
           </h2>
           <img
@@ -47,7 +47,7 @@ const HomePage = () => {
         </div>
 
         <main className="mt-40  grid grid-cols-1  lg:grid-cols-2">
-          <h2 className="text-4xl m-2 p-2">
+          <h2 className="lg:text-2xl m-2 p-2">
             get a clear roadmap from any of these unique tech feilds👩‍💻
           </h2>
           <div className=" grid grid-cols-1 lg:grid-cols-2 gap-8 m-0  p-4">

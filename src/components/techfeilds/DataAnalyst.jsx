@@ -3,12 +3,12 @@ import analystImage from "../images/Analyst.jpeg";
 
 const DataAnalyst = () => {
   return (
-    <div className="bg-slate-700 pt-5">
+    <div className="bg-slate-700 pt-5 text-white">
       <div>
         <h2 className="p-2 m-2 font-bold">
           tech schools that offer tech courses for learning
         </h2>
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap text-black">
           {" "}
           <a
             className="hover:bg-gray-100 hover:border-black p-4 m-2 border-2 bg-gray-200 rounded-lg"
@@ -66,7 +66,7 @@ const DataAnalyst = () => {
         />
       </div>
 
-      <div className="p-2 m-2 grid  gap-5">
+      <div className=" p-2 m-2 grid  gap-5">
         <div className="shadow-lg rounded-lg">
           <strong className="m-2">
             {" "}

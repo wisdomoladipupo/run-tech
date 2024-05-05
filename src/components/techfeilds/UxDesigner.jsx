@@ -2,12 +2,12 @@ import React from "react";
 import uxdisplay from "../images/ui-design.jpg";
 const UxDesigner = () => {
   return (
-    <div className="bg-slate-700 pt-5">
+    <div className="bg-slate-700 pt-5 text-white">
       <div>
         <h2 className="p-2 m-2 font-bold">
           tech schools that offer tech courses for learning
         </h2>
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap text-black">
           {" "}
           <a
             className="hover:bg-gray-100 hover:border-black p-4 m-2 border-2 bg-gray-200 rounded-lg"
@@ -59,7 +59,7 @@ const UxDesigner = () => {
       <div>
         <img src={uxdisplay} alt="tech image" />
       </div>
-      <div className="m-2 p-2 grid gap-5">
+      <div className=" m-2 p-2 grid gap-5">
         <div className="shadow-lg rounded-lg">
           <strong className="m-2"> Milestone 1: Basic check Outcome:</strong>
           <p className="m-2">

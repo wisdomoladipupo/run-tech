@@ -53,14 +53,14 @@ function App() {
           </svg>
         </div>
         <div
-          className={`text-sm mt-6 ${isMenuVisible ? "" : "hidden"} lg:block`}
+          className={`text-sm mt-3 ${isMenuVisible ? "" : "hidden"} lg:block`}
           id="menu"
         >
-          <ul className=" grid grid-flow-row mt-5 sm:mt-0 lg:flex sm:gap-4 lg:justify-center lg:my-auto lg:mr-2">
-            <li className="text-right">
+          <ul className=" grid grid-flow-row   sm:mt-0 lg:flex sm:gap-4 lg:justify-center lg:my-auto lg:mr-2">
+            <li className="text-right mt-6 lg:mt-0">
               <NavLink to="/">home</NavLink>
             </li>
-            <li>
+            <li className=" mt-1 lg:mt-0">
               <NavLink to="/comments">comments</NavLink>
             </li>
           </ul>
