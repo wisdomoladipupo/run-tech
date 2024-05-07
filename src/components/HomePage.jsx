@@ -24,26 +24,29 @@ const HomePage = () => {
             </div>
           </div>
         </section>
-        <div className="m-2">
-          <h2 className="p-2  text-3xl">
-            usefull information about where to begin in your prefered tech feild
-            of interest 👍😊
-          </h2>
-        </div>
+
         <div className=" p-4 m-10 shadow-2xl flex flex-col justify-center">
-          <h2 className=" lg:text-2xl">
-            confused about where to start from in your tech journey?
-          </h2>
-          <img
-            className="w-full rounded-md"
-            src={softWareImage}
-            alt="tech image"
-          />
-          <img
-            className="w-fit rounded-md"
-            src={softWareImage2}
-            alt="tech image"
-          />
+          <div className="lg:flex">
+            <h2 className="p-2 lg:my-auto  text-3xl">
+              we've gathered usefull information about where to begin in your
+              prefered tech feild of interest 👍😊
+            </h2>
+            <img
+              className="w-full rounded-md"
+              src={softWareImage}
+              alt="tech image"
+            />
+          </div>
+          <div className="lg:flex my-4">
+            <img
+              className="lg:w-1/2 rounded-md"
+              src={softWareImage2}
+              alt="tech image"
+            />
+            <h2 className="lg:my-auto lg:text-2xl p-2">
+              confused about where to start from in your tech journey?
+            </h2>
+          </div>
         </div>
 
         <main className="mt-40  grid grid-cols-1  lg:grid-cols-2">
