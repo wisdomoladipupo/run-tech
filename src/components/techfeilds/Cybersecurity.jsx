@@ -54,7 +54,7 @@ const Cybersecurity = () => {
         </div>
       </div>
       <h1 className="text-3xl p-4">
-        where to begin as an aspiring cybersecurity expert ?
+        where to begin as an aspiring cybersecurity expert ? thuis should create a new commit
       </h1>
       <div className="flex justify-center">
         <img src={cyberdisplay} alt="tech image" />
